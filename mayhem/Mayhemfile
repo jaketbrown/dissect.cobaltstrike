@@ -1,0 +1,6 @@
+project: dissect-cobaltstrike
+target: fuzz-cs
+
+cmds:
+  - cmd: /src/mayhem/fuzz_cs.py
+    libfuzzer: true
